@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,300i,400');
+html{
+  scroll-behavior: smooth;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato';
+    background-color: #f2f2f2;
+}
+.headje{
+    background-color: rgb(49, 49, 49);
+    text-color: white;
+    overflow: hidden;
+    background-color: #333;
+    height: 4.5em;
+    position: fixed;
+    width: 100%;
+
+    &_lijs{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        margin-top: 10px;
+        width: 100%;
+      
+    }
+      
+    &_lijsie {
+        float: right;
+      }
+      
+      &_lijsie a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+      }
+      
+      &_lijs a:hover:not(.active) {
+        background-color: #111;
+      }
+}
+
+  
+  
+  .balkje{
+    background-color: rgb(49, 49, 49);
+    display: block;
+    width: 100%;
+    height: 4.5em;
+
+  
+}
+  
+  
+
+  .home {
+      background:
+ 
+  url(images/samsm.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+height: 30vh;
+text-align: center;
+    padding-top: 12em;
+    padding-bottom: 18%;
+    color: white;
+  
+  .home img{
+      width: 100%;
+      height: 100%;
+  }
+
+      &__eerste{
+        font-size: 4em;
+        }
+        &__tweede{
+          font-size: 2.5em;
+        }
+      
+}
+.about{
+
+    &__container{
+        overflow: hidden;
+    }
+    &__abt{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    &__col1{
+        width: 50%;
+        float:left;
+        line-height: 1.7; 
+    }
+    &__col2 {
+        overflow: hidden;
+        width: 50%;
+    }
+    &__col2 img{
+        margin-left: 10%;
+        width: 40%;
+        border-radius: 50%;
+    }
+    &__ccol1 h3, .col1 p{
+        margin-left: 7px;
+    }
+}
+  
+.projects{
+    padding-bottom: 5em;
+
+  
+  &__pro {
+    display: grid;
+    color: black;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+  }
+  &__viertj, &__pee{
+    text-align: center;
+  }
+  &__towee, &__peetje{
+    text-align: center;
+  }
+  &__box {
+    width: 70%;
+    margin: 0 auto;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.4);
+    background: rgba(255, 255, 255, 0.45);
+    padding: 1em 1em;
+    text-align: center;
+  }
+  &__box img{
+    width: 100%;
+  }
+}
+ 
+  
+  
+  
+.footer{
+    position: fixed;
+        background-color: rgb(49, 49, 49);
+        color: white;
+        text-align: center;
+        padding: 0.5em;
+        bottom: 0;
+    width: 100%;
+
+    .fa {
+        padding: 10px;
+        width: 20px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        border-radius: 50%;
+        position: relative;
+      }
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }
+      .fa-instagram {
+        background: #125688;
+        color: white;
+      }
+      .fa-linkedin {
+        background: #007bb5;
+        color: white;
+      }
+      .fa-github {
+        background: #ffffff;
+        color: rgb(0, 0, 0);
+      }
+      .fa-snapchat-ghost {
+        background: #fffc00;
+        color: white;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+      }
+      .fa:hover {
+        opacity: 0.7;
+    }
+    
+        }
+        .contact{
+            &__contactainer {
+
+                background-color: #f2f2f2;
+                padding: 10px;
+                color: black;
+                margin-bottom: 100px;
+                }
+                &__contactainer h2{
+                color: black;
+                }
+                /* Create two columns that float next to eachother */
+                &__column {
+                width: 50%;
+                margin-top: 6px;
+                padding: 20px;
+                float: right;
+                }
+        
+                /* Clear floats after the columns */
+                &__row:after {
+                content: "";
+                display: table;
+                clear: both;
+                }
+                input[type=text], select, textarea {
+                width: 70%;
+                margin-left: 120px;
+                height: 3em;
+                border: 1px solid #ccc;
+                resize: vertical;
+                }
+        
+                input[type=submit] {
+                background-color: #4CAF50;
+                color: white;
+                padding: 12px 20px;
+                border: none;
+                cursor: pointer;
+                margin-top: 9px;
+                margin-left: 120px;
+                }
+        
+                input[type=submit]:hover {
+                background-color: #45a049;
+                }
+                &__fname{
+                border: 1px solid #ccc;
+                margin-top: 6px;
+                margin-bottom: 16px;
+                resize: vertical;
+                }
+                &__veldje label{
+                margin-left: 120px;
+                margin-right: 50px;
+                }
+        }
+        
