@@ -16,7 +16,7 @@ body {
   height: 4.5em;
   position: fixed;
   width: 100%; }
-  .headje_lijs {
+  .headje__lijs {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -24,15 +24,15 @@ body {
     background-color: #333;
     margin-top: 10px;
     width: 100%; }
-  .headje_lijsie {
+  .headje__lijsie {
     float: right; }
-  .headje_lijsie a {
+  .headje__lijsie a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 20px;
     text-decoration: none; }
-  .headje_lijs a:hover:not(.active) {
+  .headje__lijs a:hover:not(.active) {
     background-color: #111; }
 
 .balkje {

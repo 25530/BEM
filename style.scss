@@ -17,7 +17,7 @@ body{
     position: fixed;
     width: 100%;
 
-    &_lijs{
+    &__lijs{
         list-style-type: none;
         margin: 0;
         padding: 0;
@@ -28,11 +28,11 @@ body{
       
     }
       
-    &_lijsie {
+    &__lijsie {
         float: right;
       }
       
-      &_lijsie a {
+      &__lijsie a {
         display: block;
         color: white;
         text-align: center;
@@ -40,7 +40,7 @@ body{
         text-decoration: none;
       }
       
-      &_lijs a:hover:not(.active) {
+      &__lijs a:hover:not(.active) {
         background-color: #111;
       }
 }
